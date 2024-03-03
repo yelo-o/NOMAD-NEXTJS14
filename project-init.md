@@ -7,6 +7,10 @@ mkdir nomad-nextjs14
 npm init -y
 `
 
+`
+npm install react@latest next@latest react-dom@latest
+`
+
 ### package.json 수정
 
 `
