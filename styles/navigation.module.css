@@ -1,0 +1,8 @@
+.nav {
+    background-color: red;
+    padding: 50px 20px;
+}
+
+.nav ul {
+    display: flex;
+}
