@@ -14,8 +14,9 @@ export default async function MovieInfo({id}:{id:string}) {
         <img src={movie.poster_path} className={potato.poster} alt={movie.title}/>
         <div className={potato.info}>
             <h1 className={potato.title}>{movie.title}</h1>
-            <h3>🌟{movie.vote_average}</h3>
+            <h3>🌟{movie.vote_average.toFixed(1)}</h3>
             <p>{movie.overview}</p>
+            <a href={movie.homepage} target={"_blank"}>Homepage &rarr; </a>
         </div>
     </div>
 }
